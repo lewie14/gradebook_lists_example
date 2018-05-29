@@ -17,3 +17,7 @@ gradebook = list(zip(subjects, grades))
 gradebook.append(("Visual Arts", 93))
 
 print(gradebook)
+
+full_gradebook = list(zip(gradebook, last_semester_gradebook))
+
+print(full_gradebook)
