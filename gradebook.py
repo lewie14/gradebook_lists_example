@@ -9,6 +9,9 @@ subjects = ["Physics", "Calculus", "Poetry", "History"]
 #Grades for these subjects
 grades = [ 98, 97, 85, 88]
 
+subjects.append("Computer Science")
+grades.append(100)
+
 gradebook = zip(subjects, grades)
 
 print(list(gradebook))
